@@ -1,0 +1,37 @@
+@media (max-width:	1023px){
+	.top-header,.menu-main, .menu-share{
+		display:none;
+	}
+	.menu-logo{
+		width:100%;
+	}
+	.menu-responsive{
+		opacity:1;
+    }
+}
+@media (max-width:991px){
+	.home-text{
+		text-align:center;
+	}
+	.home-link a{
+		width:70%;
+	}
+	.service-item{
+		margin-top:1.5rem;
+	}
+	.process-item{
+		margin-top:3rem;
+	}
+	.footer-block{
+		margin-top: 3rem;
+	}
+}
+@media (max-width:	767px){
+		.service-block, .service-item{
+		margin-bottom: 3rem;
+	}
+	.service-one:after{
+		display:none;
+	}
+
+}
